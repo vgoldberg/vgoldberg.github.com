@@ -1,0 +1,472 @@
+@charset "UTF-8";
+body {
+	background-color: #FFFFFF;
+}
+#container {
+	height: 600px;
+	width: 800px;
+	position: relative;
+}
+#header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	height: 28px;
+	width: 188px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	text-align: left;
+	position: relative;
+	font-style: normal;
+	float: left;
+	margin-right: 25px;
+}
+#header2 {
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	height: 28px;
+	width: 212px;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: lighter;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #000000;
+	position: relative;
+	float: left;
+	clear: right;
+}
+#livearea {
+	height: auto;
+	width: auto;
+	margin-top: 30px;
+	margin-left: 25px;
+	position: relative;
+	float: left;
+}
+#menu {
+	height: auto;
+	width: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+	position: relative;
+	float: left;
+	clear: both;
+	padding-bottom: 5px;
+}
+#about a  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	height: 15px;
+	width: 80px;
+	white-space: normal;
+	display: block;
+}
+
+#about a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-image: url(Images/Arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 45px center;
+	height: auto;
+	width: 80px;
+}
+
+#resume a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: normal;
+	display: block;
+	height: 15px;
+	width: 80px;
+}
+#portfolio a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: normal;
+	display: block;
+	height: 15px;
+	width: 90px;
+}
+#contact a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: normal;
+	display: block;
+	height: 15px;
+	width: 80px;
+}
+#dotted {
+	height: 28px;
+	width: 425px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+	clear: both;
+	float: left;
+}
+#about {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	float: left;
+	height: 20px;
+	width: 188px;
+	position: relative;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+#resume {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	float: left;
+	height: 20px;
+	width: 188px;
+	position: relative;
+	text-decoration: none;
+	margin-top: 10px;
+	clear: right;
+}
+#portfolio {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	float: left;
+	height: 20px;
+	width: 188px;
+	position: relative;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 25px;
+	clear: left;
+}
+#contact {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-transform: uppercase;
+	float: left;
+	height: 20px;
+	width: 188px;
+	position: relative;
+	text-decoration: none;
+	margin-top: 10px;
+}
+#resume a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-image: url(Images/Arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 55px center;
+	height: auto;
+	width: 80px;
+}
+#portfolio a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-image: url(Images/Arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 72px center;
+	height: auto;
+	width: 90px;
+}
+#contact a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-image: url(Images/Arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 62px center;
+	height: auto;
+	width: 80px;
+}
+#content {
+	clear: both;
+	float: left;
+	height: auto;
+	width: auto;
+}
+#category {
+	float: left;
+	height: auto;
+	width: auto;
+}
+#category h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	height: auto;
+	width: 425px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+#lulu {
+	height: 146px;
+	width: 423px;
+}
+#lulu a {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/lulu-alpha.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#lulu a:hover {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/Lulu.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#made {
+	height: 146px;
+	width: 423px;
+}
+#made a {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/made-alpha.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#made a:hover {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/made.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#fj {
+	height: 146px;
+	width: 423px;
+}
+#fj a {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/fj-alpha.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#fj a:hover {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/fj.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#violence {
+	height: 146px;
+	width: 423px;
+}
+#violence a {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/violence-alpha.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#violence  a:hover {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/violence.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#fudge {
+	height: 146px;
+	width: 423px;
+}
+#fudge a {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/fudge-alpha.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#fudge a:hover {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/fudge.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#harajuku {
+	height: 146px;
+	width: 423px;
+}
+#harajuku a {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/harajuku-alpha.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#harajuku a:hover {
+	white-space: normal;
+	display: block;
+	height: 146px;
+	width: 423px;
+	background-image: url(Images/harajuku.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#arrow-left {
+	height: auto;
+	width: auto;
+	position: absolute;
+}
+#container #category #arrow-right {
+	height: auto;
+	width: auto;
+	position: absolute;
+	left: 411px;
+	top: 115px;
+}
+.current {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-transform: uppercase;
+	text-decoration: none;
+	height: auto;
+	width: 80px;
+}
+#contact-copy {
+	float: left;
+	height: auto;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+#contact-copy h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	height: auto;
+	width: 425px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+#contact-copy a {
+	float: left;
+	height: auto;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+#header a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	height: 28px;
+	width: 188px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	text-align: left;
+	position: relative;
+	font-style: normal;
+	float: left;
+	margin-right: 25px;
+	text-decoration: none;
+}
+#contact-resumecol1 {
+	height: auto;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+#resumeheader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #B2B2B2;
+	height: auto;
+	width: 210px;
+}
+#contact-copy h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	height: auto;
+	width: 425px;
+}
+#contact-resumecol2 {
+	height: auto;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+}

@@ -1,0 +1,621 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+body {
+	text-decoration: none;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #000;
+	margin:0;
+	background-color:#E7E5E3;
+	background-image:url("images/light_grid.png");
+	background-repeat:repeat-y;
+	background-attachment: fixed;
+	background-position:center top;
+	
+	}
+
+	
+#wrapper {
+	width: 931px;
+	height: auto;
+	margin: 0 auto;
+	text-decoration: none;
+
+	}
+	
+#header {
+	width: 931px;
+	height: 125px;
+	
+	}
+	
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin:20px 0;
+	width: 191px;
+	}
+
+h2 {
+	margin-bottom:20px;
+	text-decoration: none;
+	height: 20px;
+	width: 191px;
+	}
+	
+#blogdescription{
+    display: inline-block;
+    position: relative;
+    right: -190px;
+    top: -88px;
+    width: 172px;
+    
+	}
+
+
+#blogdescription h3 {
+	
+	font-size: 12px;
+    left: 400px;
+    width: 170px;
+
+	}
+	
+#blogdescription p {
+	color: #67707A;
+    display: inline-block;
+    float: left;
+    font: italic 11px/14px Georgia;
+    padding-top: 1px;
+    width: 170px;
+
+	}
+
+#intro p {    
+	color: #A9A9A9;
+	display: inline-block;
+	float: left;
+	font: italic 30px/42px Georgia;
+	padding-left: 5px;
+	margin-top: -10px;
+	width: 931px;
+
+     }
+
+
+/* NAVIGATION */
+
+#contact p{
+	margin: -2px;
+	}
+
+#contact {
+    background-image: url("images/contact.png");
+    background-repeat: repeat-x;
+    color: #67707A;
+    display: inline-block;
+    float: right;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 15px;
+    padding: 1px 7px 7px;
+    position: relative;
+    text-decoration: none;
+	top: -58px;
+}
+
+
+
+#nav {
+     border-top: 1px solid #1A2735;
+    padding: 10px 0;
+    position: relative;
+    top: -55px;
+}
+
+#nav ul {
+margin:0; padding:0; list-style:none;
+}
+#nav ul li {
+ display: inline-block;
+ float: left;
+ margin-top: -12px;
+ width: 192px;
+
+}
+#nav ul li a {
+	
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    text-decoration: none;
+	padding-top: 15px;
+					  
+        }
+        
+#nav ul li a span {
+	
+      	  
+		  font: Georgia, "Times New Roman", Times, serif;
+		  font-style:italic;
+		  font-size: 12px;
+      	  font-weight: normal;
+      	  color: #67707a;
+		  font-family: Georgia;
+		  
+		  
+        }
+
+#nav ul li #active a {
+		color: #000;
+		border-top: 3px solid #000000;
+	}
+
+        
+#nav ul li a:hover {
+		 color: #000;
+		 border-top: 3px solid #000000;
+      
+        }
+
+
+/* CONNECTIMAGES AND WRAPPERS*/
+
+.aboutwrapper {
+	margin-bottom:1px;
+	position:relative;
+	margin-top:40px;
+	width: 930px;
+	text-decoration: none;
+	font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+	
+}
+.aboutwrapper .column1 {
+	position: relative;
+	float: left;
+	left: 0px;
+	width: 170px;
+   }
+
+.aboutwrapper .column2 {
+	position: relative;
+	float: left;
+	left: 20px;
+	width: 170px;
+}
+.aboutwrapper .column3 {
+	position: relative;
+	float: left;
+	left: 40px;
+	width: 170px;
+}
+.aboutwrapper .column4{
+	position: relative;
+	float: left;
+	left: 62px;
+	width: 170px;
+	padding-top: 62px;
+}
+  .aboutwrapper .column5{
+   position: relative;
+   float: left;
+   left: 84px;
+   width: 168px;
+   height: 231px;
+   top: 62px;
+   background-image: url(Images/column5.png);
+}
+
+<!--
+/** 
+ * Identity Slideshow style rules.
+ */
+#slideshow {
+	margin:0 auto;
+	width:1024px;
+	height:467px;
+	background:transparent url(img/bg_slideshow.jpg) no-repeat 0 0;
+	position:relative;
+	float:left;
+	margin-left: -48px;
+}
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:931px;
+  height:467px;
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:931px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:467px;
+}
+
+/* Interactive CSS  */
+
+#slideshow2 {
+	margin:0 auto;
+	width:1024px;
+	height:467px;
+	background:transparent url(img/bg_slideshow.jpg) no-repeat 0 0;
+	position:relative;
+	float:left;
+	margin-left: -48px;
+}
+#slideshow2 #slidesContainer2 {
+  margin:0 auto;
+  width:931px;
+  height:467px;
+  position:relative;
+}
+#slideshow2 #slidesContainer2 .slide2 {
+  margin:0 auto;
+  width:931px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:467px;
+}
+
+/* OldScoolPrint CSS  */
+
+#slideshow3 {
+	margin:0 auto;
+	width:1024px;
+	height:467px;
+	background:transparent url(img/bg_slideshow.jpg) no-repeat 0 0;
+	position:relative;
+	float:left;
+	margin-left: -48px;
+}
+#slideshow3 #slidesContainer3 {
+  margin:0 auto;
+  width:931px;
+  height:467px;
+  position:relative;
+}
+#slideshow3 #slidesContainer .slide3 {
+  margin:0 auto;
+  width:931px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:467px;
+}
+
+/* Packaging CSS  */
+
+#slideshow4 {
+	margin:0 auto;
+	width:1024px;
+	height:467px;
+	background:transparent url(img/bg_slideshow.jpg) no-repeat 0 0;
+	position:relative;
+	float:left;
+	margin-left: -48px;
+	padding-bottom: 20px;
+}
+#slideshow4 #slidesContainer4 {
+  margin:0 auto;
+  width:931px;
+  height:467px;
+  position:relative;
+}
+#slideshow4 #slidesContainer .slide4 {
+  margin:0 auto;
+  width:931px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:467px;
+}
+
+
+
+/** 
+ * Identity Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:200px;
+  left:0;
+  background:transparent url(images/control_left.png) no-repeat 0 0;
+}
+#rightControl {
+  top:200px;
+  right:0;
+  background:transparent url(images/control_right.png) no-repeat 0 0;
+}
+
+/* Interactive CSS  */
+
+.control2 {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl2 {
+  top:200px;
+  left:0;
+  background:transparent url(images/control_left.png) no-repeat 0 0;
+}
+#rightControl2 {
+  top:200px;
+  right:0;
+  background:transparent url(images/control_right.png) no-repeat 0 0;
+}
+
+/* OldSchoolPrint CSS  */
+
+.control3 {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl3 {
+  top:200px;
+  left:0;
+  background:transparent url(images/control_left.png) no-repeat 0 0;
+}
+#rightControl3 {
+  top:200px;
+  right:0;
+  background:transparent url(images/control_right.png) no-repeat 0 0;
+}
+
+/* Packagin CSS  */
+
+.control4 {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl4 {
+  top:200px;
+  left:0;
+  background:transparent url(images/control_left.png) no-repeat 0 0;
+}
+#rightControl4 {
+  top:200px;
+  right:0;
+  background:transparent url(images/control_right.png) no-repeat 0 0;
+}
+
+
+/** 
+ * Style rules for Demo page
+ */
+
+a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+  color: #67707A;
+}
+
+
+-->
+
+
+
+
+/* ABOUT IMAGES AND WRAPPERS*/
+
+.wrapper1 {
+	float:left;
+	margin-bottom:1px;
+	position:relative;
+	margin-top:40px;
+	
+}
+.wrapper1 .left1{
+	position: relative;
+	float: left;
+	left: 5px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper1_left1.png);	
+   }
+
+.wrapper1 .left2{
+	position: relative;
+	float: left;
+	left: 30px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper1_left2.png);
+}
+.wrapper1 .left3{
+	position: relative;
+	float: left;
+	left: 50px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper1_left3.png);
+}
+.wrapper1 .left4{
+	position: relative;
+	float: left;
+	left: 75px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper1_left4.png);
+}
+.wrapper1 .left5{
+	position: relative;
+	float: left;
+	left: 100px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper1_left5.png);
+}
+
+.wrapper2 {
+	float:left;
+	margin-bottom:1px;
+	position:relative;
+	width:933px;
+
+}
+
+.wrapper2 .left1{
+	position: relative;
+	float: left;
+	left: 5px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper2_left1.png);
+   }
+.wrapper2 .left2{
+   position: relative;
+   float: left;
+   left: 30px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper2_left2.png);
+
+}
+.wrapper2 .left3{
+   position: relative;
+   float: left;
+   left: 50px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper2_left3.png);
+
+}
+.wrapper2 .left4{
+   position: relative;
+   float: left;
+   left: 75px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper2_left4.png);
+
+}
+.wrapper2 .left5{
+   position: relative;
+   float: left;
+   left: 100px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper2_left5.png);
+
+}
+
+.wrapper3 {
+  	float:left;
+	margin-bottom:1px;
+	position:relative;
+	width:933px;
+   
+}
+
+.wrapper3 .left1{
+	position: relative;
+	float: left;
+	left: 5px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper3_left1.png);
+   }
+.wrapper3 .left2{
+   position: relative;
+   float: left;
+   left: 30px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper3_left2.png);
+}
+.wrapper3 .left3{
+   position: relative;
+   float: left;
+   left: 50px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper3_left3.png);
+}
+.wrapper3 .left4{
+   position: relative;
+   float: left;
+   left: 75px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper3_left4.png);
+}
+.wrapper3 .left5{
+   position: relative;
+   float: left;
+   left: 100px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper3_left5.png);
+}
+
+.wrapper4 {
+  	float:left;
+	margin-bottom:1px;
+	position:relative;
+	width:933px;
+}
+
+.wrapper4 .left1{
+	position: relative;
+	float: left;
+	left: 5px;
+	width: 166px;
+	height: 115px;
+	background-image: url(Images/wrapper4_left1.png);  
+   }
+.wrapper4 .left2{
+   position: relative;
+   float: left;
+   left: 30px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper4_left2.png);
+}
+.wrapper4 .left3{
+   position: relative;
+   float: left;
+   left: 50px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper4_left3.png);
+}
+.wrapper4 .left4{
+   position: relative;
+   float: left;
+   left: 75px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper4_left4.png);
+}
+.wrapper4 .left5{
+   position: relative;
+   float: left;
+   left: 100px;
+   width: 166px;
+   height: 115px;
+   background-image: url(Images/wrapper4_left5.png);
+}
+
+ 

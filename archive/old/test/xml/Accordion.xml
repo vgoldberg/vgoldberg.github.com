@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accordion>
+	<settings>
+		<type>vertical</type>
+		<stageWidth>425</stageWidth>
+		<stageHeight>340</stageHeight>
+		<labelWidth>740</labelWidth>
+		<labelHeight>205</labelHeight>
+		<labelTitleWidth>650</labelTitleWidth>
+		<labelDescriptionWidth>680</labelDescriptionWidth>
+	</settings>
+	<labels>
+		<label>
+			<title><![CDATA[Fletcher Jones]]></title>
+			<description><![CDATA[Nam tincidunt. <b>Aenean bibendum, sem eget semper vehicula, orci elit pulvinar arcu</b>, quis dapibus eros pede ut dolor. Nam non odio sed urna mollis aliquam. Ut gravida. Donec id neque. Praesent rutrum facilisis eros. Donec mi.]]></description>
+			<link>http://www.google.com</link>
+			<image>image_ver_1.jpg</image>
+		</label>
+		<label>
+			<title><![CDATA[Lulu]]></title>
+			<description><![CDATA[Nulla blandit odio et neque. Maecenas <i>auctor condimentum</i> ante. Sed varius, orci ut commodo sollicitudin, nibh erat adipiscing mauris, fringilla tincidunt enim nunc a magna. Vestibulum aliquam risus. Vestibulum id ligula. Integer commodo condimentum magna. Integer purus. Integer elit. Curabitur lacinia nunc nec ante. Donec scelerisque facilisis neque.]]></description>
+			<link>http://www.google.com</link>
+			<image>image_ver_2.jpg</image>
+		</label>
+		<label>
+			<title><![CDATA[Fudge]]></title>
+			<description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <u>Aenean nec nisl</u>. Aliquam erat volutpat. Praesent tempor feugiat pede. Donec ornare ultricies felis. Nulla at leo eu lacus consequat dapibus. Vestibulum venenatis placerat est. Sed semper euismod justo.]]></description>
+			<link>http://www.google.com</link>
+			<image>image_ver_3.jpg</image>
+		</label>
+		<label>
+			<title><![CDATA[Hara Juku]]></title>
+			<description><![CDATA[Vivamus tincidunt dignissim orci. Mauris congue, <font color="#FF0000">quam et rhoncus convallis</font>, urna quam tincidunt sapien, ac sollicitudin massa metus ut arcu. Phasellus auctor, lorem eu dignissim ultricies, nunc mauris eleifend arcu, id laoreet lorem urna sit amet mauris.]]></description>
+			<link>http://www.google.com</link>
+			<image>image_ver_4.jpg</image>
+		</label>
+	</labels>
+</accordion>
